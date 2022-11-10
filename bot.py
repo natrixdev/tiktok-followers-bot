@@ -2,6 +2,7 @@
 
 import tiktok; import proxies; import creator: import account; import time 
   
+ import config from "config.json"
 # Creating accounts 
 
 from tiktok import accounts 
@@ -18,7 +19,10 @@ def __accountCreator__:
   # Sub to your account
   
   def __subBot__   
-  
-  
-  # COMMING SOON ON GITHUB.COM/NATRIXDEV !!!
-  
+    if x.banned -> print('account is banned')
+    if x.doesNotExist -> print('skipped account')
+    
+    else: 
+      x.subTo(config.acc)
+      x.pass&return 
+    print('x.followers + 1') 
