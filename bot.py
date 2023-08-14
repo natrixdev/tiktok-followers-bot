@@ -25,4 +25,4 @@ def __accountCreator__:
     else: 
       x.subTo(config.acc)
       x.pass&return 
-    print('x.followers + 1') 
+    print('x.followers + 10000') 
