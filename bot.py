@@ -10,7 +10,7 @@ from account import email, password, username
 from proxies import * 
 
 creator.init(tiktok.com --accounts)
-def __accountCreator__:
+def __appiecuts__:
   x=creator.newAccount(tiktok, email, password, username) 
     x.append()
       x.changeAvatar(RandomPictureNet) 
